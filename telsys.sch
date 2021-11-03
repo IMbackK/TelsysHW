@@ -1,0 +1,1486 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Telsys"
+Date "2018-02-22"
+Rev "Proto 2 Ex"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L telsys-rescue:C C13
+U 1 1 5A6F4F28
+P 8100 1550
+F 0 "C13" H 8125 1650 50  0000 L CNN
+F 1 "1uF" H 8125 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8138 1400 50  0001 C CNN
+F 3 "" H 8100 1550 50  0001 C CNN
+	1    8100 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:Conn_02x02_Odd_Even J1
+U 1 1 5A6F55DE
+P 1450 3150
+F 0 "J1" H 1500 3250 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 1500 2950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 1450 3150 50  0001 C CNN
+F 3 "" H 1450 3150 50  0001 C CNN
+	1    1450 3150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3700 3650 3    60   Input ~ 0
+VCC
+$Comp
+L telsys-rescue:R R8
+U 1 1 5A6F5AFC
+P 2950 3050
+F 0 "R8" V 3030 3050 50  0000 C CNN
+F 1 "560R" V 2950 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2880 3050 50  0001 C CNN
+F 3 "" H 2950 3050 50  0001 C CNN
+	1    2950 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:R R9
+U 1 1 5A6F68BF
+P 3250 1550
+F 0 "R9" V 3330 1550 50  0000 C CNN
+F 1 "68K" V 3250 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3180 1550 50  0001 C CNN
+F 3 "" H 3250 1550 50  0001 C CNN
+	1    3250 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:R R10
+U 1 1 5A6F6A65
+P 3400 2400
+F 0 "R10" V 3480 2400 50  0000 C CNN
+F 1 "100K" V 3400 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3330 2400 50  0001 C CNN
+F 3 "" H 3400 2400 50  0001 C CNN
+	1    3400 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L telsys-rescue:C C5
+U 1 1 5A6F6DE2
+P 3950 3500
+F 0 "C5" H 3975 3600 50  0000 L CNN
+F 1 "1uF" H 3975 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3988 3350 50  0001 C CNN
+F 3 "" H 3950 3500 50  0001 C CNN
+	1    3950 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:Conn_01x02 J3
+U 1 1 5A6F7472
+P 7300 4200
+F 0 "J3" H 7300 4300 50  0000 C CNN
+F 1 "PRGM" H 7300 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7300 4200 50  0001 C CNN
+F 3 "" H 7300 4200 50  0001 C CNN
+	1    7300 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R19
+U 1 1 5A6F767F
+P 7150 3100
+F 0 "R19" V 7230 3100 50  0000 C CNN
+F 1 "1K" V 7150 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7080 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+F 4 "5%" V 7150 3100 60  0001 C CNN "Tolerance"
+	1    7150 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:R R18
+U 1 1 5A6F780F
+P 7000 3100
+F 0 "R18" V 7080 3100 50  0000 C CNN
+F 1 "1K" V 7000 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6930 3100 50  0001 C CNN
+F 3 "" H 7000 3100 50  0001 C CNN
+F 4 "5%" V 7000 3100 60  0001 C CNN "Tolerance"
+	1    7000 3100
+	1    0    0    1   
+$EndComp
+Text GLabel 7050 3400 3    60   Input ~ 0
+VCC
+Text GLabel 6950 2800 0    60   Input ~ 0
+SDA
+Text GLabel 2300 1350 0    60   Input ~ 0
+VCC
+Text GLabel 5850 5000 2    60   Input ~ 0
+VCC
+$Comp
+L telsys-rescue:C C8
+U 1 1 5A6F9A2C
+P 6550 2200
+F 0 "C8" H 6575 2300 50  0000 L CNN
+F 1 "47uF" H 6575 2100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6588 2050 50  0001 C CNN
+F 3 "" H 6550 2200 50  0001 C CNN
+	1    6550 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:LM324A U1
+U 3 1 5A6FA959
+P 3800 3150
+F 0 "U1" H 3800 3350 50  0000 L CNN
+F 1 "LM324A" H 3800 2950 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3750 3250 50  0001 C CNN
+F 3 "" H 3850 3350 50  0001 C CNN
+	3    3800 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:LM324A U1
+U 1 1 5A6FAB53
+P 2300 2600
+F 0 "U1" H 2300 2800 50  0000 L CNN
+F 1 "LM324A" H 2300 2400 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2250 2700 50  0001 C CNN
+F 3 "" H 2350 2800 50  0001 C CNN
+F 4 "LM324A" H 2300 2600 60  0001 C CNN "Part Number"
+	1    2300 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:LM324A U1
+U 2 1 5A6FABF9
+P 2300 3900
+F 0 "U1" H 2300 4100 50  0000 L CNN
+F 1 "LM324A" H 2300 4200 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2250 4000 50  0001 C CNN
+F 3 "" H 2350 4100 50  0001 C CNN
+	2    2300 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:R R12
+U 1 1 5A706D27
+P 4850 2300
+F 0 "R12" V 4930 2300 50  0000 C CNN
+F 1 "5.6K" V 4850 2300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4780 2300 50  0001 C CNN
+F 3 "" H 4850 2300 50  0001 C CNN
+	1    4850 2300
+	0    -1   1    0   
+$EndComp
+Text Notes 6650 700  2    60   ~ 0
+2-order filter  Knee: 1/(2piR9C2) = 604Hz\n
+$Comp
+L telsys-rescue:C C6
+U 1 1 5A778936
+P 5100 2050
+F 0 "C6" H 5125 2150 50  0000 L CNN
+F 1 "47nF" H 5125 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5138 1900 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R17
+U 1 1 5A778B8E
+P 6250 2400
+F 0 "R17" V 6330 2400 50  0000 C CNN
+F 1 "5.6K" V 6250 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6180 2400 50  0001 C CNN
+F 3 "" H 6250 2400 50  0001 C CNN
+	1    6250 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:R R13
+U 1 1 5A779398
+P 5050 2500
+F 0 "R13" V 5150 2500 50  0000 C CNN
+F 1 "10K" V 5050 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4980 2500 50  0001 C CNN
+F 3 "" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:R R16
+U 1 1 5A779921
+P 5650 2900
+F 0 "R16" V 5750 2900 50  0000 C CNN
+F 1 "10K" V 5650 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5580 2900 50  0001 C CNN
+F 3 "" H 5650 2900 50  0001 C CNN
+	1    5650 2900
+	0    -1   1    0   
+$EndComp
+Text GLabel 9600 6300 0    60   Input ~ 0
+VGND
+Text GLabel 3700 2750 1    60   Input ~ 0
+VGND
+Text GLabel 2350 1050 0    60   Input ~ 0
+VGND
+Text GLabel 1750 3250 2    60   Input ~ 0
+VGND
+$Comp
+L telsys-rescue:R R15
+U 1 1 5A781087
+P 10250 5850
+F 0 "R15" V 10350 5850 50  0000 C CNN
+F 1 "100K" V 10250 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10180 5850 50  0001 C CNN
+F 3 "" H 10250 5850 50  0001 C CNN
+	1    10250 5850
+	0    1    -1   0   
+$EndComp
+Text Notes 2550 2050 2    60   ~ 0
+Pre buffer\n
+Text Notes 4850 1700 2    60   ~ 0
+Offset Correction\n
+Text GLabel 5100 1700 1    60   Input ~ 0
+VGND
+Text GLabel 4200 3500 2    60   Input ~ 0
+VGND
+Text GLabel 4900 2500 0    60   Input ~ 0
+VGND
+Text GLabel 8100 1350 1    60   Input ~ 0
+NRFGND
+$Comp
+L telsys-rescue:R R1
+U 1 1 5A859D74
+P 1400 2850
+F 0 "R1" V 1480 2850 50  0000 C CNN
+F 1 "R" V 1400 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" V 1330 2850 50  0001 C CNN
+F 3 "" H 1400 2850 50  0001 C CNN
+	1    1400 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:R R2
+U 1 1 5A859E20
+P 1400 3550
+F 0 "R2" V 1480 3550 50  0000 C CNN
+F 1 "R" V 1400 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" V 1330 3550 50  0001 C CNN
+F 3 "" H 1400 3550 50  0001 C CNN
+	1    1400 3550
+	0    -1   1    0   
+$EndComp
+Text GLabel 6550 1750 1    60   Input ~ 0
+VGND
+Text Notes 6350 1650 2    60   ~ 0
+Gain: 1+ R11/10  = 2\n
+$Comp
+L telsys-rescue:R R5
+U 1 1 5A8F28A7
+P 1500 4600
+F 0 "R5" V 1580 4600 50  0000 C CNN
+F 1 "100K" V 1500 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1430 4600 50  0001 C CNN
+F 3 "" H 1500 4600 50  0001 C CNN
+	1    1500 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R6
+U 1 1 5A8F2949
+P 1500 5100
+F 0 "R6" V 1580 5100 50  0000 C CNN
+F 1 "100K" V 1500 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1430 5100 50  0001 C CNN
+F 3 "" H 1500 5100 50  0001 C CNN
+	1    1500 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R4
+U 1 1 5A8F3835
+P 1450 2000
+F 0 "R4" V 1530 2000 50  0000 C CNN
+F 1 "100K" V 1450 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 2000 50  0001 C CNN
+F 3 "" H 1450 2000 50  0001 C CNN
+	1    1450 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:R R3
+U 1 1 5A8F383B
+P 1450 1500
+F 0 "R3" V 1530 1500 50  0000 C CNN
+F 1 "100K" V 1450 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1380 1500 50  0001 C CNN
+F 3 "" H 1450 1500 50  0001 C CNN
+	1    1450 1500
+	-1   0    0    1   
+$EndComp
+Text Notes 1950 900  2    60   ~ 0
+Input Impedance Control\n
+Text GLabel 2900 7450 3    60   Input ~ 0
+SCL
+Text GLabel 1650 6450 0    60   Input ~ 0
+VCC
+Text GLabel 2050 6950 0    60   Input ~ 0
+VGND
+$Comp
+L telsys-rescue:C C3
+U 1 1 5A9DC767
+P 1900 6300
+F 0 "C3" H 1925 6400 50  0000 L CNN
+F 1 "10nF" H 1925 6200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 1938 6150 50  0001 C CNN
+F 3 "" H 1900 6300 50  0001 C CNN
+	1    1900 6300
+	-1   0    0    1   
+$EndComp
+Text GLabel 1900 6150 1    60   Input ~ 0
+VGND
+$Comp
+L telsys-rescue:C C4
+U 1 1 5A9DD698
+P 2700 5800
+F 0 "C4" H 2725 5900 50  0000 L CNN
+F 1 "0.47uF" H 2725 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2738 5650 50  0001 C CNN
+F 3 "" H 2700 5800 50  0001 C CNN
+	1    2700 5800
+	-1   0    0    1   
+$EndComp
+Text GLabel 2700 5550 1    60   Input ~ 0
+VGND
+$Comp
+L telsysComponants:MCP4725 U3
+U 1 1 5A9DFD88
+P 4050 1100
+F 0 "U3" H 4050 1000 60  0000 C CNN
+F 1 "MCP4725" H 4050 1200 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 4050 1200 60  0001 C CNN
+F 3 "" H 4050 1200 60  0001 C CNN
+F 4 "MCP4725A0T-E/CH" H 4050 1100 60  0001 C CNN "Part Number"
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 4350 1    60   Input ~ 0
+VGND
+Text GLabel 1450 2250 3    60   Input ~ 0
+VGND
+Text GLabel 4850 1250 2    60   Input ~ 0
+SDA
+Text GLabel 4850 1100 2    60   Input ~ 0
+SCL
+$Comp
+L telsys-rescue:C C2
+U 1 1 5A9E201B
+P 2700 1200
+F 0 "C2" H 2725 1300 50  0000 L CNN
+F 1 "10nF" H 2725 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 2738 1050 50  0001 C CNN
+F 3 "" H 2700 1200 50  0001 C CNN
+	1    2700 1200
+	-1   0    0    1   
+$EndComp
+Text GLabel 4850 950  2    60   Input ~ 0
+VGND
+$Comp
+L telsys-rescue:LM324A U1
+U 4 1 5A7780CC
+P 5650 2400
+F 0 "U1" H 5650 2600 50  0000 L CNN
+F 1 "LM324A" H 5650 2200 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5600 2500 50  0001 C CNN
+F 3 "" H 5700 2600 50  0001 C CNN
+F 4 "LM324A" H 5650 2400 60  0001 C CNN "Part Number"
+	4    5650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:Jumper_NO_Small JP1
+U 1 1 5A9EFAF0
+P 1800 2250
+F 0 "JP1" H 1800 2330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1810 2190 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x1_W5.08mm_Slide_Copal_CHS-A" H 1800 2250 50  0001 C CNN
+F 3 "" H 1800 2250 50  0001 C CNN
+F 4 "CHS-01TA" H 1800 2250 60  0001 C CNN "Part Number"
+	1    1800 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:Jumper_NO_Small JP2
+U 1 1 5A9EFCE9
+P 1850 4400
+F 0 "JP2" H 1850 4500 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1860 4340 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x1_W5.08mm_Slide_Copal_CHS-A" H 1850 4400 50  0001 C CNN
+F 3 "" H 1850 4400 50  0001 C CNN
+F 4 "CHS-01TA" H 1850 4400 60  0001 C CNN "Part Number"
+	1    1850 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L telsysComponants:nrf52832-qfax U5
+U 1 1 5A9F18D6
+P 8800 3700
+F 0 "U5" H 8750 3650 60  0000 C CNN
+F 1 "nrf52832-qfax" H 8750 3800 60  0000 C CNN
+F 2 "Housings_DFN_QFN:UQFN-48-1EP_6x6mm_Pitch0.4mm" H 8700 4050 60  0001 C CNN
+F 3 "" H 8700 4050 60  0000 C CNN
+F 4 "nRF52832-QFAA-R7" H 8800 3700 60  0001 C CNN "Part Number"
+	1    8800 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 2900 0    60   Input ~ 0
+SCL
+$Comp
+L telsys-rescue:R R20
+U 1 1 5A9F57A4
+P 10150 3000
+F 0 "R20" V 10230 3000 50  0000 C CNN
+F 1 "6.8k" V 10150 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10080 3000 50  0001 C CNN
+F 3 "" H 10150 3000 50  0001 C CNN
+F 4 "5%" V 10150 3000 60  0001 C CNN "Tolerance"
+	1    10150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:Crystal Y1
+U 1 1 5A9F65A7
+P 7250 1800
+F 0 "Y1" H 7250 1950 50  0000 C CNN
+F 1 "32.768KHz" H 7250 1650 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 7250 1800 50  0001 C CNN
+F 3 "" H 7250 1800 50  0001 C CNN
+F 4 "ABS06W-32.768kHz-J-2-T" H 7250 1800 60  0001 C CNN "Part Number"
+	1    7250 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:C C12
+U 1 1 5A9F691B
+P 7650 1550
+F 0 "C12" H 7675 1650 50  0000 L CNN
+F 1 "12pF" H 7675 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7688 1400 50  0001 C CNN
+F 3 "" H 7650 1550 50  0001 C CNN
+F 4 "02013A120GAT2A" H 7650 1550 60  0001 C CNN "Part Number"
+	1    7650 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:C C9
+U 1 1 5A9F69E1
+P 6900 1550
+F 0 "C9" H 6925 1650 50  0000 L CNN
+F 1 "12pF" H 6925 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6938 1400 50  0001 C CNN
+F 3 "" H 6900 1550 50  0001 C CNN
+F 4 "02013A120GAT2A" H 6900 1550 60  0001 C CNN "Part Number"
+	1    6900 1550
+	-1   0    0    1   
+$EndComp
+Text GLabel 7300 1250 1    60   Input ~ 0
+NRFGND
+Text GLabel 8500 1700 1    60   Input ~ 0
+VCC
+$Comp
+L telsys-rescue:C C14
+U 1 1 5A9FB05E
+P 8700 1700
+F 0 "C14" H 8725 1800 50  0000 L CNN
+F 1 "100nF" H 8725 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8738 1550 50  0001 C CNN
+F 3 "" H 8700 1700 50  0001 C CNN
+	1    8700 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:Conn_Coaxial J5
+U 1 1 5A9FC002
+P 10900 2200
+F 0 "J5" H 10910 2320 50  0000 C CNN
+F 1 "Conn_Coaxial" V 11015 2200 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_Microcoaxial_RF" H 10900 2200 50  0001 C CNN
+F 3 "" H 10900 2200 50  0001 C CNN
+F 4 "0734120110" H 10900 2200 60  0001 C CNN "Part Number"
+	1    10900 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 2450 3    60   Input ~ 0
+NRFGND
+$Comp
+L telsys-rescue:Crystal Y2
+U 1 1 5A9FD13B
+P 7300 5050
+F 0 "Y2" H 7300 5200 50  0000 C CNN
+F 1 "32MHz" H 7300 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 7300 5050 50  0001 C CNN
+F 3 "" H 7300 5050 50  0001 C CNN
+F 4 "ABS06W-32.768kHz-D-2-T" H 7300 5050 60  0001 C CNN "Part Number"
+	1    7300 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:C C10
+U 1 1 5A9FD141
+P 7050 4650
+F 0 "C10" H 7075 4750 50  0000 L CNN
+F 1 "12pF" H 7075 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7088 4500 50  0001 C CNN
+F 3 "" H 7050 4650 50  0001 C CNN
+F 4 "02013A120GAT2A" H 7050 4650 60  0001 C CNN "Part Number"
+	1    7050 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:C C11
+U 1 1 5A9FD147
+P 7050 5400
+F 0 "C11" H 7075 5500 50  0000 L CNN
+F 1 "12pF" H 7075 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7088 5250 50  0001 C CNN
+F 3 "" H 7050 5400 50  0001 C CNN
+F 4 "02013A120GAT2A" H 7050 5400 60  0001 C CNN "Part Number"
+	1    7050 5400
+	0    1    1    0   
+$EndComp
+Text GLabel 6750 5000 0    60   Input ~ 0
+NRFGND
+$Comp
+L telsys-rescue:L L1
+U 1 1 5A9FDDFA
+P 10500 2200
+F 0 "L1" V 10450 2200 50  0000 C CNN
+F 1 "3.9nH" V 10575 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 10500 2200 50  0001 C CNN
+F 3 "" H 10500 2200 50  0001 C CNN
+F 4 "L04023R9BHNTR" V 10500 2200 60  0001 C CNN "Part Number"
+	1    10500 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:C C17
+U 1 1 5A9FDFB8
+P 10150 2350
+F 0 "C17" H 10175 2450 50  0000 L CNN
+F 1 "0.8pF" H 10175 2250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0201" H 10188 2200 50  0001 C CNN
+F 3 "" H 10150 2350 50  0001 C CNN
+F 4 "GJM0335C1ER80BB01D" H 10150 2350 60  0001 C CNN "Part Number"
+	1    10150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:C C15
+U 1 1 5A9FEBFF
+P 9100 1700
+F 0 "C15" H 9125 1800 50  0000 L CNN
+F 1 "100pF" H 9125 1600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9138 1550 50  0001 C CNN
+F 3 "" H 9100 1700 50  0001 C CNN
+	1    9100 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 5750 3    60   Input ~ 0
+NRFGND
+$Comp
+L telsys-rescue:Conn_01x02 J4
+U 1 1 5AA0CB8E
+P 10350 4800
+F 0 "J4" H 10350 4900 50  0000 C CNN
+F 1 "UART" H 10350 4600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10350 4800 50  0001 C CNN
+F 3 "" H 10350 4800 50  0001 C CNN
+	1    10350 4800
+	1    0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:LED_Small D1
+U 1 1 5AA0FDFB
+P 10600 3000
+F 0 "D1" H 10700 3000 50  0000 L CNN
+F 1 "LED_RED" H 10550 2900 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 10600 3000 50  0001 C CNN
+F 3 "" V 10600 3000 50  0001 C CNN
+	1    10600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:SW_Push SW1
+U 1 1 5AA129CE
+P 10400 3600
+F 0 "SW1" H 10450 3700 50  0000 L CNN
+F 1 "SW_Push" H 10400 3540 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10400 3800 50  0001 C CNN
+F 3 "" H 10400 3800 50  0001 C CNN
+	1    10400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:R R23
+U 1 1 5AA13644
+P 10500 3800
+F 0 "R23" V 10580 3800 50  0000 C CNN
+F 1 "10K" V 10500 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10430 3800 50  0001 C CNN
+F 3 "" H 10500 3800 50  0001 C CNN
+F 4 "5%" V 10500 3800 60  0001 C CNN "Tolerance"
+	1    10500 3800
+	0    1    1    0   
+$EndComp
+Text GLabel 10700 3800 2    60   Input ~ 0
+VCC
+Text GLabel 10700 3600 2    60   Input ~ 0
+NRFGND
+Text GLabel 10550 6300 2    60   Input ~ 0
+NRFGND
+$Comp
+L telsys-rescue:R R14
+U 1 1 5AA1D5DB
+P 5350 5400
+F 0 "R14" V 5450 5400 50  0000 C CNN
+F 1 "100K" V 5350 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5280 5400 50  0001 C CNN
+F 3 "" H 5350 5400 50  0001 C CNN
+	1    5350 5400
+	0    1    -1   0   
+$EndComp
+Text GLabel 4700 5000 0    60   Input ~ 0
+VSG
+Text GLabel 800  3150 0    60   Input ~ 0
+VSG
+Text GLabel 1450 1250 1    60   Input ~ 0
+VSG
+Text GLabel 1500 5350 3    60   Input ~ 0
+VSG
+$Comp
+L telsys-rescue:TLV70032_SOT23-5 U4
+U 1 1 5AA20D52
+P 5550 6300
+F 0 "U4" H 5400 6525 50  0000 C CNN
+F 1 "TLV70032_SOT23-5" H 5550 6525 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 5550 6625 50  0001 C CIN
+F 3 "" H 5550 6350 50  0001 C CNN
+F 4 "TLV70025QDDCRQ1" H 5550 6300 60  0001 C CNN "Part Number"
+	1    5550 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:C C18
+U 1 1 5AA2C7D8
+P 5000 6500
+F 0 "C18" H 5025 6600 50  0000 L CNN
+F 1 "1uF" H 5025 6400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5038 6350 50  0001 C CNN
+F 3 "" H 5000 6500 50  0001 C CNN
+	1    5000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:C C7
+U 1 1 5AA2D070
+P 6050 6350
+F 0 "C7" H 6075 6450 50  0000 L CNN
+F 1 "10uF" H 6075 6250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 6088 6200 50  0001 C CNN
+F 3 "" H 6050 6350 50  0001 C CNN
+	1    6050 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 6800 3    60   Input ~ 0
+NRFGND
+Text GLabel 6300 6200 2    60   Input ~ 0
+VCC
+$Comp
+L telsys-rescue:R R7
+U 1 1 5AA30D85
+P 2300 3250
+F 0 "R7" V 2380 3250 50  0000 C CNN
+F 1 "R" V 2300 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" V 2230 3250 50  0001 C CNN
+F 3 "" H 2300 3250 50  0001 C CNN
+	1    2300 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R11
+U 1 1 5AA31FF5
+P 3900 2400
+F 0 "R11" V 3980 2400 50  0000 C CNN
+F 1 "250K" V 3900 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3830 2400 50  0001 C CNN
+F 3 "" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L telsys-rescue:Jumper_NO_Small JP3
+U 1 1 5AA32750
+P 3400 2150
+F 0 "JP3" H 3400 2230 50  0000 C CNN
+F 1 "JPC" H 3400 2050 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x1_W5.08mm_Slide_Copal_CHS-A" H 3400 2150 50  0001 C CNN
+F 3 "" H 3400 2150 50  0001 C CNN
+F 4 "CHS-01TA" H 3400 2150 60  0001 C CNN "Part Number"
+	1    3400 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:Jumper_NO_Small JP4
+U 1 1 5AA32FE0
+P 3900 2150
+F 0 "JP4" H 3900 2230 50  0000 C CNN
+F 1 "JPC" H 3900 2050 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x1_W5.08mm_Slide_Copal_CHS-A" H 3900 2150 50  0001 C CNN
+F 3 "" H 3900 2150 50  0001 C CNN
+F 4 "CHS-01TA" H 3900 2150 60  0001 C CNN "Part Number"
+	1    3900 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:L L3
+U 1 1 5AA067E4
+P 10000 1850
+F 0 "L3" V 9950 1850 50  0000 C CNN
+F 1 "10uH" V 10075 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 10000 1850 50  0001 C CNN
+F 3 "" H 10000 1850 50  0001 C CNN
+	1    10000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:L L2
+U 1 1 5AA06B11
+P 10000 1550
+F 0 "L2" V 9950 1550 50  0000 C CNN
+F 1 "13nH" V 10100 1550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 10000 1550 50  0001 C CNN
+F 3 "" H 10000 1550 50  0001 C CNN
+	1    10000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:R R24
+U 1 1 5AA088CB
+P 6550 5850
+F 0 "R24" V 6630 5850 50  0000 C CNN
+F 1 "10M" V 6550 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6480 5850 50  0001 C CNN
+F 3 "" H 6550 5850 50  0001 C CNN
+F 4 "5%" V 6550 5850 60  0001 C CNN "Precision"
+	1    6550 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L telsys-rescue:R R25
+U 1 1 5AA08CA5
+P 6700 6150
+F 0 "R25" V 6780 6150 50  0000 C CNN
+F 1 "10M" V 6700 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6630 6150 50  0001 C CNN
+F 3 "" H 6700 6150 50  0001 C CNN
+F 4 "5%" V 6700 6150 60  0001 C CNN "Precision"
+	1    6700 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:C C16
+U 1 1 5AA0AA66
+P 7000 6150
+F 0 "C16" H 7025 6250 50  0000 L CNN
+F 1 "1uf" H 7025 6050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7038 6000 50  0001 C CNN
+F 3 "" H 7000 6150 50  0001 C CNN
+	1    7000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L telsys-rescue:C C19
+U 1 1 5AA1218D
+P 9500 1400
+F 0 "C19" H 9525 1500 50  0000 L CNN
+F 1 "1uF" H 9525 1300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9538 1250 50  0001 C CNN
+F 3 "" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	0    1    -1   0   
+$EndComp
+$Comp
+L telsys-rescue:Conn_01x01 J2
+U 1 1 5AA14314
+P 4600 6200
+F 0 "J2" H 4600 6300 50  0000 C CNN
+F 1 "INPUTV" H 4600 6100 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 4600 6200 50  0001 C CNN
+F 3 "" H 4600 6200 50  0001 C CNN
+	1    4600 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:Conn_01x01 J6
+U 1 1 5AA1440F
+P 4600 6400
+F 0 "J6" H 4600 6500 50  0000 C CNN
+F 1 "INPUTGND" H 4600 6650 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 4600 6400 50  0001 C CNN
+F 3 "" H 4600 6400 50  0001 C CNN
+	1    4600 6400
+	-1   0    0    1   
+$EndComp
+$Comp
+L telsys-rescue:Q_NMOS_GSD Q1
+U 1 1 5AA1559C
+P 10050 6200
+F 0 "Q1" H 10000 6000 50  0000 L CNN
+F 1 "Q_NMOS_GSD" V 9850 5950 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 10250 6300 50  0001 C CNN
+F 3 "" H 10050 6200 50  0001 C CNN
+F 4 "NTR3A052PZT1G" H 10050 6200 60  0001 C CNN "Part Number"
+	1    10050 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L telsys-rescue:Q_PMOS_GSD Q2
+U 1 1 5AA164B2
+P 5200 5100
+F 0 "Q2" H 5050 5000 50  0000 L CNN
+F 1 "Q_PMOS_GSD" V 5400 5050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5400 5200 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+F 4 "STR2P3LLH6" H 5200 5100 60  0001 C CNN "Part Number"
+	1    5200 5100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3700 3450 3700 3500
+Wire Wire Line
+	1150 3250 1150 3550
+Wire Wire Line
+	3100 3050 3250 3050
+Connection ~ 3700 3500
+Wire Wire Line
+	2000 2200 2000 2500
+Wire Wire Line
+	2000 3500 2000 3800
+Wire Wire Line
+	1150 4000 1850 4000
+Wire Wire Line
+	1650 2700 1650 2850
+Wire Wire Line
+	1650 2700 1800 2700
+Wire Wire Line
+	3700 2750 3700 2850
+Connection ~ 3250 3050
+Connection ~ 3250 2400
+Wire Wire Line
+	4100 2150 4100 2400
+Wire Wire Line
+	4100 3500 4200 3500
+Wire Wire Line
+	7600 4200 7500 4200
+Wire Wire Line
+	7500 4300 7600 4300
+Wire Wire Line
+	7000 3300 7050 3300
+Wire Wire Line
+	7050 3300 7050 3400
+Wire Wire Line
+	7150 3300 7150 3250
+Connection ~ 7050 3300
+Wire Wire Line
+	800  3150 1100 3150
+Wire Wire Line
+	1650 3250 1750 3250
+Wire Wire Line
+	4100 3150 4550 3150
+Wire Wire Line
+	6550 1750 6550 2050
+Wire Wire Line
+	8100 1350 8100 1400
+Wire Wire Line
+	6550 2400 6550 2350
+Connection ~ 6550 2400
+Wire Wire Line
+	4550 3150 4550 2300
+Wire Wire Line
+	2600 3050 2800 3050
+Wire Wire Line
+	5100 2200 5100 2300
+Connection ~ 5100 2300
+Wire Wire Line
+	5950 2400 6000 2400
+Wire Wire Line
+	5100 1700 5100 1900
+Wire Wire Line
+	5200 2500 5250 2500
+Wire Wire Line
+	5250 2500 5250 2900
+Wire Wire Line
+	5250 2900 5500 2900
+Connection ~ 5250 2500
+Wire Wire Line
+	6000 2900 5800 2900
+Connection ~ 6000 2400
+Wire Wire Line
+	9850 6300 9600 6300
+Wire Wire Line
+	10250 6300 10400 6300
+Wire Wire Line
+	10100 5850 10050 5850
+Connection ~ 10050 5850
+Connection ~ 2600 2600
+Wire Wire Line
+	3800 3500 3700 3500
+Connection ~ 2600 3500
+Wire Wire Line
+	1650 3250 1650 3400
+Wire Wire Line
+	1650 3550 1550 3550
+Wire Wire Line
+	1250 3550 1150 3550
+Connection ~ 1150 3550
+Wire Wire Line
+	1100 3150 1100 2850
+Wire Wire Line
+	1100 2850 1250 2850
+Connection ~ 1100 3150
+Wire Wire Line
+	1650 2850 1550 2850
+Connection ~ 1650 2850
+Connection ~ 10400 6300
+Wire Wire Line
+	1500 4750 1500 4850
+Wire Wire Line
+	1500 4350 1500 4450
+Wire Wire Line
+	1500 4850 1850 4850
+Connection ~ 1850 4000
+Connection ~ 1500 4850
+Wire Wire Line
+	1450 1650 1450 1750
+Wire Wire Line
+	1450 2250 1450 2150
+Wire Wire Line
+	1450 1750 1800 1750
+Connection ~ 1450 1750
+Connection ~ 1800 2700
+Wire Wire Line
+	1650 6450 1900 6450
+Connection ~ 1900 6450
+Wire Wire Line
+	2700 5550 2700 5600
+Wire Wire Line
+	2700 5600 2800 5600
+Wire Wire Line
+	2800 5600 2800 5950
+Connection ~ 2700 5600
+Wire Wire Line
+	3400 950  3250 950 
+Wire Wire Line
+	3400 1100 3150 1100
+Wire Wire Line
+	2600 3250 2600 3500
+Wire Wire Line
+	2600 2200 2600 2600
+Wire Wire Line
+	3150 1250 3400 1250
+Wire Wire Line
+	4850 1250 4700 1250
+Wire Wire Line
+	4850 1100 4700 1100
+Wire Wire Line
+	2300 1350 2700 1350
+Wire Wire Line
+	3150 1350 3150 1250
+Connection ~ 2700 1350
+Wire Wire Line
+	3150 1100 3150 1050
+Wire Wire Line
+	3150 1050 2700 1050
+Connection ~ 2700 1050
+Wire Wire Line
+	4850 950  4700 950 
+Wire Wire Line
+	1800 1750 1800 2150
+Wire Wire Line
+	1800 2350 1800 2700
+Wire Wire Line
+	1850 4000 1850 4300
+Wire Wire Line
+	1850 4850 1850 4500
+Wire Wire Line
+	6000 2900 6000 2400
+Wire Wire Line
+	5000 2300 5100 2300
+Wire Wire Line
+	4550 2300 4700 2300
+Wire Wire Line
+	6950 2800 7000 2800
+Wire Wire Line
+	6950 2900 7150 2900
+Wire Wire Line
+	7000 3300 7000 3250
+Wire Wire Line
+	7000 2800 7000 2950
+Connection ~ 7000 2800
+Wire Wire Line
+	7150 2950 7150 2900
+Connection ~ 7150 2900
+Wire Wire Line
+	10300 3000 10500 3000
+Wire Wire Line
+	7650 1800 7650 1700
+Wire Wire Line
+	7400 1800 7600 1800
+Wire Wire Line
+	6900 1700 6900 1800
+Wire Wire Line
+	6900 1800 6950 1800
+Wire Wire Line
+	7600 2200 7600 1800
+Connection ~ 7600 1800
+Wire Wire Line
+	7600 2300 6950 2300
+Wire Wire Line
+	6950 2300 6950 1800
+Connection ~ 6950 1800
+Wire Wire Line
+	6900 1400 6900 1250
+Wire Wire Line
+	7650 1250 7650 1400
+Wire Wire Line
+	8300 1800 8300 2000
+Wire Wire Line
+	8500 1700 8500 1800
+Wire Wire Line
+	8100 1700 8100 1800
+Connection ~ 8500 1800
+Connection ~ 8300 1800
+Wire Wire Line
+	8100 1800 8300 1800
+Connection ~ 8100 1800
+Wire Wire Line
+	8700 2000 8700 1850
+Wire Wire Line
+	8100 1400 8700 1400
+Wire Wire Line
+	8700 1400 8700 1550
+Connection ~ 8100 1400
+Connection ~ 8700 1400
+Wire Wire Line
+	7200 4650 7300 4650
+Wire Wire Line
+	7200 5400 7300 5400
+Wire Wire Line
+	7300 5400 7300 5200
+Wire Wire Line
+	6750 5400 6900 5400
+Wire Wire Line
+	6750 4650 6900 4650
+Wire Wire Line
+	7300 4650 7300 4900
+Wire Wire Line
+	7300 4900 7600 4900
+Wire Wire Line
+	7300 5200 7600 5200
+Connection ~ 7300 5200
+Connection ~ 7300 4900
+Wire Wire Line
+	10450 2450 10450 2400
+Wire Wire Line
+	10350 2400 10450 2400
+Wire Wire Line
+	10750 2200 10650 2200
+Wire Wire Line
+	10150 2500 10350 2500
+Wire Wire Line
+	10350 2500 10350 2400
+Connection ~ 10450 2400
+Wire Wire Line
+	10000 2200 10150 2200
+Connection ~ 10150 2200
+Wire Wire Line
+	9300 2000 9300 1850
+Wire Wire Line
+	9100 2000 9100 1850
+Wire Wire Line
+	9100 1550 9100 1400
+Connection ~ 9100 1400
+Wire Wire Line
+	8800 5650 8800 5750
+Wire Wire Line
+	8500 5650 8600 5650
+Wire Wire Line
+	9200 5650 9200 5400
+Wire Wire Line
+	8600 5650 8600 5400
+Connection ~ 8800 5650
+Wire Wire Line
+	8500 5650 8500 5400
+Connection ~ 8600 5650
+Wire Wire Line
+	10150 4700 10000 4700
+Wire Wire Line
+	10000 4800 10150 4800
+Wire Wire Line
+	10700 3000 10900 3000
+Connection ~ 10900 2400
+Wire Wire Line
+	10200 3600 10000 3600
+Connection ~ 10200 3600
+Wire Wire Line
+	10700 3800 10650 3800
+Wire Wire Line
+	10600 3600 10700 3600
+Wire Wire Line
+	10350 3800 10200 3800
+Wire Wire Line
+	10200 3800 10200 3600
+Wire Wire Line
+	10050 5600 10050 5850
+Wire Wire Line
+	10400 5850 10400 6300
+Wire Wire Line
+	5400 5000 5500 5000
+Wire Wire Line
+	5500 5400 5500 5000
+Connection ~ 5500 5000
+Wire Wire Line
+	5200 5300 5200 5400
+Connection ~ 5200 5400
+Wire Wire Line
+	4700 5000 5000 5000
+Wire Wire Line
+	1450 1350 1450 1250
+Wire Wire Line
+	1500 5350 1500 5250
+Wire Wire Line
+	4800 6200 5000 6200
+Wire Wire Line
+	6700 6800 6050 6800
+Wire Wire Line
+	5550 6800 5550 6600
+Connection ~ 5000 6200
+Connection ~ 5000 6800
+Wire Wire Line
+	5850 6200 6050 6200
+Wire Wire Line
+	6050 6800 6050 6500
+Connection ~ 5550 6800
+Connection ~ 6050 6200
+Wire Wire Line
+	2300 3400 1650 3400
+Connection ~ 1650 3400
+Wire Wire Line
+	2300 3100 2300 3050
+Wire Wire Line
+	2300 3050 1650 3050
+Connection ~ 1650 3050
+Wire Wire Line
+	3550 2400 3600 2400
+Wire Wire Line
+	4100 2400 4050 2400
+Wire Wire Line
+	3800 2150 3700 2150
+Wire Wire Line
+	3700 2150 3700 2400
+Connection ~ 3700 2400
+Wire Wire Line
+	3600 2150 3600 2400
+Connection ~ 3600 2400
+Wire Wire Line
+	3250 950  3250 1400
+Wire Wire Line
+	3250 1700 3250 2150
+Wire Wire Line
+	3300 2150 3250 2150
+Connection ~ 3250 2150
+Wire Wire Line
+	3500 2150 3600 2150
+Wire Wire Line
+	4000 2150 4100 2150
+Connection ~ 4100 2400
+Wire Wire Line
+	5250 6300 5150 6300
+Wire Wire Line
+	5150 6300 5150 6200
+Connection ~ 5150 6200
+Wire Wire Line
+	6700 5850 6700 6000
+Wire Wire Line
+	5000 5850 6400 5850
+Wire Wire Line
+	6700 6300 6700 6500
+Connection ~ 6050 6800
+Wire Wire Line
+	6700 5850 7000 5850
+Wire Wire Line
+	8400 5850 8400 6250
+Wire Wire Line
+	10200 5200 10000 5200
+Wire Wire Line
+	7000 6000 7000 5850
+Connection ~ 7000 5850
+Wire Wire Line
+	7000 6300 7000 6500
+Wire Wire Line
+	7000 6500 6700 6500
+Connection ~ 6700 6500
+Wire Wire Line
+	5000 5850 5000 6200
+Wire Wire Line
+	5000 6800 5000 6650
+Wire Wire Line
+	9500 2000 10000 2000
+Wire Wire Line
+	9650 1400 9750 1400
+Wire Wire Line
+	9300 1850 9750 1850
+Wire Wire Line
+	9750 1850 9750 1400
+Connection ~ 9750 1400
+Wire Wire Line
+	4800 6800 4800 6400
+Wire Wire Line
+	10900 3000 10900 2400
+Wire Wire Line
+	10150 4900 10000 4900
+Wire Wire Line
+	5200 5750 8600 5750
+Wire Wire Line
+	8600 5750 8600 6450
+Wire Wire Line
+	10000 4000 11050 4000
+Wire Wire Line
+	10050 5600 10600 5600
+Wire Wire Line
+	10600 5600 10600 4100
+Wire Wire Line
+	10600 4100 10000 4100
+Wire Wire Line
+	8600 6450 11050 6450
+Wire Wire Line
+	11050 6450 11050 4000
+Wire Wire Line
+	8400 6250 9050 6250
+Wire Wire Line
+	9050 6250 9050 6050
+Wire Wire Line
+	9050 6050 9600 6050
+Wire Wire Line
+	9600 6050 9600 5450
+Wire Wire Line
+	9600 5450 10200 5450
+Wire Wire Line
+	10200 5450 10200 5200
+Text GLabel 7600 2700 0    60   Input ~ 0
+VGND
+Wire Wire Line
+	6400 2400 6550 2400
+Wire Wire Line
+	7200 2400 7200 2600
+Wire Wire Line
+	7200 2600 7600 2600
+$Comp
+L telsysComponants:ICM20689 U2
+U 1 1 5AB85EAE
+P 2750 6700
+F 0 "U2" H 2750 6600 60  0000 C CNN
+F 1 "ICM20689" H 2750 6800 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-24_4x4mm_Pitch0.5mm" H 2750 6650 60  0001 C CNN
+F 3 "" H 2750 6650 60  0001 C CNN
+	1    2750 6700
+	-1   0    0    1   
+$EndComp
+Text GLabel 3000 7450 3    60   Input ~ 0
+SDA
+Text GLabel 2900 5650 1    60   Input ~ 0
+VCC
+Wire Wire Line
+	2900 5650 2900 5950
+$Comp
+L telsys-rescue:R R27
+U 1 1 5AF41AF8
+P 4100 2650
+F 0 "R27" V 4180 2650 50  0000 C CNN
+F 1 "50K" V 4100 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4030 2650 50  0001 C CNN
+F 3 "" H 4100 2650 50  0001 C CNN
+	1    4100 2650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3150 4100 2800
+Connection ~ 4100 3150
+$Comp
+L telsys-rescue:R R22
+U 1 1 5AF42C7B
+P 2300 3500
+F 0 "R22" V 2200 3500 50  0000 C CNN
+F 1 "200R" V 2300 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2230 3500 50  0001 C CNN
+F 3 "" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2150 3500 2000 3500
+Wire Wire Line
+	2450 3500 2600 3500
+$Comp
+L telsys-rescue:R R21
+U 1 1 5AF4337D
+P 2300 2200
+F 0 "R21" V 2380 2200 50  0000 C CNN
+F 1 "200R" V 2300 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2230 2200 50  0001 C CNN
+F 3 "" H 2300 2200 50  0001 C CNN
+	1    2300 2200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2600 2200 2450 2200
+Wire Wire Line
+	2000 2200 2150 2200
+$Comp
+L telsys-rescue:R R26
+U 1 1 5AF4B2D3
+P 3050 3250
+F 0 "R26" V 3130 3250 50  0000 C CNN
+F 1 "560R" V 3050 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2980 3250 50  0001 C CNN
+F 3 "" H 3050 3250 50  0001 C CNN
+	1    3050 3250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 3250 3200 3250
+Wire Wire Line
+	2900 3250 2600 3250
+Connection ~ 1650 3250
+Wire Wire Line
+	3700 3500 3700 3650
+Wire Wire Line
+	3250 3050 3500 3050
+Wire Wire Line
+	3250 2400 3250 3050
+Wire Wire Line
+	7050 3300 7150 3300
+Wire Wire Line
+	6550 2400 7200 2400
+Wire Wire Line
+	5100 2300 5350 2300
+Wire Wire Line
+	5250 2500 5350 2500
+Wire Wire Line
+	6000 2400 6100 2400
+Wire Wire Line
+	10050 5850 10050 6000
+Wire Wire Line
+	2600 2600 2600 3050
+Wire Wire Line
+	2600 3500 2600 3900
+Wire Wire Line
+	1150 3550 1150 4000
+Wire Wire Line
+	1100 3150 1150 3150
+Wire Wire Line
+	1650 2850 1650 3050
+Wire Wire Line
+	10400 6300 10550 6300
+Wire Wire Line
+	1850 4000 2000 4000
+Wire Wire Line
+	1500 4850 1500 4950
+Wire Wire Line
+	1450 1750 1450 1850
+Wire Wire Line
+	1800 2700 2000 2700
+Wire Wire Line
+	1900 6450 2050 6450
+Wire Wire Line
+	2700 5600 2700 5650
+Wire Wire Line
+	2700 1350 3150 1350
+Wire Wire Line
+	2700 1050 2350 1050
+Wire Wire Line
+	7000 2800 7600 2800
+Wire Wire Line
+	7150 2900 7600 2900
+Wire Wire Line
+	7600 1800 7650 1800
+Wire Wire Line
+	6950 1800 7100 1800
+Wire Wire Line
+	8500 1800 8500 2000
+Wire Wire Line
+	8300 1800 8500 1800
+Wire Wire Line
+	8100 1800 8100 2000
+Wire Wire Line
+	8700 1400 9100 1400
+Wire Wire Line
+	10450 2400 10900 2400
+Wire Wire Line
+	10150 2200 10350 2200
+Wire Wire Line
+	9100 1400 9350 1400
+Wire Wire Line
+	8800 5650 9200 5650
+Wire Wire Line
+	8600 5650 8800 5650
+Wire Wire Line
+	5500 5000 5850 5000
+Wire Wire Line
+	5200 5400 5200 5750
+Wire Wire Line
+	5000 6200 5150 6200
+Wire Wire Line
+	5000 6200 5000 6350
+Wire Wire Line
+	5000 6800 4800 6800
+Wire Wire Line
+	5550 6800 5000 6800
+Wire Wire Line
+	6050 6200 6300 6200
+Wire Wire Line
+	1650 3400 1650 3550
+Wire Wire Line
+	1650 3050 1650 3150
+Wire Wire Line
+	3700 2400 3750 2400
+Wire Wire Line
+	3600 2400 3700 2400
+Wire Wire Line
+	3250 2150 3250 2400
+Wire Wire Line
+	4100 2400 4100 2500
+Wire Wire Line
+	5150 6200 5250 6200
+Wire Wire Line
+	6050 6800 5550 6800
+Wire Wire Line
+	7000 5850 8400 5850
+Wire Wire Line
+	6700 6500 6700 6800
+Wire Wire Line
+	9750 1400 10000 1400
+Wire Wire Line
+	6900 1250 7650 1250
+Wire Wire Line
+	6750 4650 6750 5400
+$EndSCHEMATC
